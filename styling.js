@@ -47,10 +47,10 @@ const styling = {
   textThemeLight: {
     color: _themeLight,
   },
-  textRight: {
+  textstart: {
     textAlign: "right",
   },
-  textLeft: {
+  textend: {
     textAlign: "left",
   },
   textCenter: {
@@ -314,14 +314,44 @@ const styling = {
   w25: {
     width: "25%",
   },
+  w90: {
+    width: "90%",
+  },
+  w80: {
+    width: "80%",
+  },
+  w70: {
+    width: "70%",
+  },
+  w60: {
+    width: "60%",
+  },
+  w40: {
+    width: "40%",
+  },
+  w30: {
+    width: "30%",
+  },
+  w20: {
+    width: "20%",
+  },
+  w10: {
+    width: "10%",
+  },
   h100: {
     height: "100%",
+  },
+  h90: {
+    height: "90%",
   },
   h80: {
     height: "80%",
   },
   h75: {
     height: "75%",
+  },
+  h70: {
+    height: "70%",
   },
   h60: {
     height: "60%",
@@ -332,14 +362,23 @@ const styling = {
   h40: {
     height: "40%",
   },
+  h30: {
+    height: "30%",
+  },
   h25: {
     height: "25%",
   },
   h20: {
     height: "20%",
   },
-  fs: {
-    fontSize: 16,
+  h10: {
+    height: "10%",
+  },
+  fsXL: {
+    fontSize: 50,
+  },
+  fsL: {
+    fontSize: 40,
   },
   fs1: {
     fontSize: 32,
@@ -356,8 +395,23 @@ const styling = {
   fs5: {
     fontSize: 18,
   },
-  main: {
+  fs6: {
+    fontSize: 16,
+  },
+  flex1: {
     flex: 1,
+  },
+  flex2: {
+    flex: 2,
+  },
+  flex3: {
+    flex: 3,
+  },
+  flex4: {
+    flex: 4,
+  },
+  flex5: {
+    flex: 5,
   },
   input: {
     height: "auto",
@@ -393,7 +447,133 @@ const styling = {
     borderBottomColor: _dark,
   },
   btn: {
+    backgroundColor: _transparent,
+    color: "white",
+    // width: '100%',
+    padding: 12,
+    paddingHorizontal: 25,
+    fontSize: 16,
+    borderRadius: 100,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.32,
+    shadowRadius: 5.46,
+
+    elevation: 9,
+  },
+  btnPrimary: {
     backgroundColor: _dark,
+    color: "white",
+    // width: '100%',
+    padding: 12,
+    paddingHorizontal: 25,
+    fontSize: 16,
+    borderRadius: 100,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.32,
+    shadowRadius: 5.46,
+
+    elevation: 9,
+  },
+  btnSecondary: {
+    backgroundColor: _secondary,
+    color: "white",
+    // width: '100%',
+    padding: 12,
+    paddingHorizontal: 25,
+    fontSize: 16,
+    borderRadius: 100,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.32,
+    shadowRadius: 5.46,
+
+    elevation: 9,
+  },
+  btnInfo: {
+    backgroundColor: _info,
+    color: "white",
+    // width: '100%',
+    padding: 12,
+    paddingHorizontal: 25,
+    fontSize: 16,
+    borderRadius: 100,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.32,
+    shadowRadius: 5.46,
+
+    elevation: 9,
+  },
+  btnSuccess: {
+    backgroundColor: _success,
+    color: "white",
+    // width: '100%',
+    padding: 12,
+    paddingHorizontal: 25,
+    fontSize: 16,
+    borderRadius: 100,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.32,
+    shadowRadius: 5.46,
+
+    elevation: 9,
+  },
+  btnDanger: {
+    backgroundColor: _danger,
+    color: "white",
+    // width: '100%',
+    padding: 12,
+    paddingHorizontal: 25,
+    fontSize: 16,
+    borderRadius: 100,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.32,
+    shadowRadius: 5.46,
+
+    elevation: 9,
+  },
+  btnBlack: {
+    backgroundColor: _black,
+    color: "white",
+    // width: '100%',
+    padding: 12,
+    paddingHorizontal: 25,
+    fontSize: 16,
+    borderRadius: 100,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.32,
+    shadowRadius: 5.46,
+
+    elevation: 9,
+  },
+  btnLight: {
+    backgroundColor: _light,
     color: "white",
     // width: '100%',
     padding: 12,
@@ -771,7 +951,7 @@ const styling = {
     justifyContent: "space-around",
   },
   rounded: {
-    borderRadius: 12,
+    borderRadius: 15,
   },
   roundedPill: {
     borderRadius: 500,
@@ -812,8 +992,13 @@ const styling = {
   positionAbsolute: {
     position: "absolute",
   },
+  Positionfloat: {
+    position: "fixed",
+    bottom: 20,
+    right: 20,
+  },
   positionFixed: {
-    position: "fixeds",
+    position: "fixed",
   },
   _dark: _dark,
   _light: _light,
