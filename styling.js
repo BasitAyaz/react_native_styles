@@ -47,14 +47,17 @@ const styling = {
   textThemeLight: {
     color: _themeLight,
   },
-  textstart: {
-    textAlign: "right",
-  },
-  textend: {
+  textStart: {
     textAlign: "left",
+  },
+  textEnd: {
+    textAlign: "right",
   },
   textCenter: {
     textAlign: "center",
+  },
+  textUnderline: {
+    textDecorationLine: "underline"
   },
   textBold: {
     fontWeight: "bold",
