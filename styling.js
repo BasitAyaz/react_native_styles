@@ -959,6 +959,18 @@ const styling = {
   roundedPill: {
     borderRadius: 500,
   },
+  roundedTopRight: {
+    borderTopRightRadius: 15
+  },
+  roundedTopLeft: {
+    borderTopLeftRadius: 15
+  },
+  roundedBottomRight: {
+    borderBottomRightRadius: 15
+  },
+  roundedBottomLeft: {
+    borderBottomLeftRadius: 15
+  },
   label: {
     fontSize: 18,
     borderRadius: 5,
