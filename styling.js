@@ -422,7 +422,7 @@ const styling = {
     padding: 10,
     paddingHorizontal: 15,
     fontSize: 17,
-    borderRadius: 30,
+    borderRadius: 15,
     backgroundColor: "#f1f1f1",
     // shadowColor: '#000',
     // shadowOffset: {
